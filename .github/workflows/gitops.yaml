@@ -25,7 +25,7 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         push: true
-        tags: akadirvel1/gitops:${{ github.sha }} , akadirvela/gitops:latest
+        tags: akadirvel1/gitops:${{ github.sha }} , akadirvel1/gitops:latest
   update:
     name: Update Helm Manifests
     runs-on: ubuntu-latest
