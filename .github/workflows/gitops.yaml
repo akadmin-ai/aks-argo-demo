@@ -47,6 +47,6 @@ jobs:
       run: | 
         git config --global user.name 'Kadirvel'
         git config --global user.email 'a.kadirvel@gmail.com'
-        git rebase
+        git pull
         git commit -am "updating image tag"
         git push
