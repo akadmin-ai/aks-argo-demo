@@ -4,8 +4,8 @@ on:
   push:
     branches:
     - main
-    paths:
-    - 'main.go'
+    # paths:
+    # - 'main.go'
 jobs:
   build:
     name: Build and Push the image
