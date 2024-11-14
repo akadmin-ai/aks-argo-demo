@@ -15,5 +15,8 @@ spec:
       - values.yaml
   project: 'default'
   syncPolicy:
+    automated:
+      prune: true               # Enable pruning of old resources
+      selfHeal: true             # Enable auto-sync for resources that drift
     syncOptions:
       - CreateNamespace=true
