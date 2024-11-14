@@ -7,7 +7,7 @@ spec:
     name: 'in-cluster'
     namespace: 'prod'
   source:
-    path: 'chart'
+    path: 'go-app-chart'
     repoURL: 'https://github.com/akadmin-ai/aks-argo-demo.git'
     targetRevision: HEAD
     helm:
