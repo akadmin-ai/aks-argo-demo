@@ -1,5 +1,5 @@
 image:
   repository: akadirvel1/gitops
-  tag: db8958b664398db1e49bb667ce791c17a4930215
+  tag: 80abd430a8df59a8d4c4e38a95965f6326aad799
 appname: dev-server
 replicas: 2
